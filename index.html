@@ -8,20 +8,20 @@
 </head>
 
 <body class="body">
-  <div class="header-wrap">
+  <header class="header-wrap">
     <img class="header-pic" src="./eisenhower-matrix.jpg">
     <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="main-wrap">
-    <p id="top-section-for-adding-element-to-list">
+  </header>
+  <main class="main-wrap">
+    <section id="top-section-for-adding-element-to-list">
       <label class="new-task">Add Item</label>
     <div class="task-row-wrapper">
       <input id="new-task" class="task new-task-input" type="text">
       <button class="app-btn">Add</button>
     </div>
-    </p>
+    </section>
     <h3 class="section-title">Todo</h3>
-    <ul class="task-wrap_incomplete" id="incomplete-tasks">
+    <section class="task-wrap_incomplete" id="incomplete-tasks">
       <li class="task-item">
         <input type="checkbox" class="checkbox-input">
         <label class="task-description">Pay Bills</label>
@@ -40,9 +40,9 @@
           <img class="section-img" src="./remove.svg">
         </button>
       </li>
-    </ul>
+    </section>
     <h3 class="section-title">Completed</h3>
-    <ul class="task-wrap_complete" id="completed-tasks">
+    <section class="task-wrap_complete" id="completed-tasks">
       <li class="task-item">
         <input type="checkbox" class="checkbox-input" checked>
         <label class="task-description task-description_complete">See the Doctor</label>
@@ -52,8 +52,8 @@
           <img class="section-img" src="./remove.svg">
         </button>
       </li>
-    </ul>
-  </div>
+    </section>
+  </main>
   <script src="app.js"></script>
 </body>
 
