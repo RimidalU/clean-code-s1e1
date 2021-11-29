@@ -5,29 +5,29 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.header-wrap {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.header-wrap img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.header-wrap .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa { text-align: center;
+  .header-wrap { text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.main-wrap {
   display: block;
   width: 500px;
   margin: 0 auto 0;
